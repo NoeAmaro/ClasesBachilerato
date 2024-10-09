@@ -3,11 +3,11 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #e3f2fd;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #1e88e5;
     color: white;
     padding: 20px;
     text-align: center;
@@ -23,10 +23,39 @@ main {
 
 /* Estilos específicos para la página de Matemáticas */
 h1 {
-    color: #4CAF50;
+    color: #1e88e5;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
+
+p {
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #1e88e5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo adicional para las secciones */
+section {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
 
 p {
     font-size: 1.2em;
